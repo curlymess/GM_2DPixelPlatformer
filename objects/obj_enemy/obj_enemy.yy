@@ -1,0 +1,52 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_enemy",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_character_parent","path":"objects/obj_character_parent/obj_character_parent.yy",},"propertyId":{"name":"spr_idle","path":"objects/obj_character_parent/obj_character_parent.yy",},"value":"spr_enemy_idle",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_character_parent","path":"objects/obj_character_parent/obj_character_parent.yy",},"propertyId":{"name":"spr_walk","path":"objects/obj_character_parent/obj_character_parent.yy",},"value":"spr_enemy_walk",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_character_parent","path":"objects/obj_character_parent/obj_character_parent.yy",},"propertyId":{"name":"spr_air","path":"objects/obj_character_parent/obj_character_parent.yy",},"value":"spr_enemy_idle",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_character_parent","path":"objects/obj_character_parent/obj_character_parent.yy",},"propertyId":{"name":"spr_dead","path":"objects/obj_character_parent/obj_character_parent.yy",},"value":"spr_enemy_dead",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_character_parent","path":"objects/obj_character_parent/obj_character_parent.yy",},"propertyId":{"name":"state","path":"objects/obj_character_parent/obj_character_parent.yy",},"value":"enemyState.WALK",},
+  ],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy",
+  },
+  "parentObjectId": {
+    "name": "obj_character_parent",
+    "path": "objects/obj_character_parent/obj_character_parent.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"walk_spd","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"2","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"jump_spd","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"7","varType":0,},
+  ],
+  "solid": false,
+  "spriteId": {
+    "name": "spr_enemy_idle",
+    "path": "sprites/spr_enemy_idle/spr_enemy_idle.yy",
+  },
+  "spriteMaskId": {
+    "name": "spr_enemy_idle",
+    "path": "sprites/spr_enemy_idle/spr_enemy_idle.yy",
+  },
+  "visible": true,
+}
